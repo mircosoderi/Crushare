@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- <item android:id="@+id/message_html" android:title="@string/raw"/> -->
-    <item android:id="@+id/send_again" android:title="@string/send_again"/>
-    <item android:id="@+id/hide_message" android:title="@string/hide"/>
-    <item android:id="@+id/destroy_message" android:title="@string/destroy"/>
-</menu>

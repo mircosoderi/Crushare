@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="text">text</string>
-    <string name="file">file</string>
-    <string name="incoming_file_prefix">CrushareFileNo</string>
-    <string name="background">background</string>
-</resources>
