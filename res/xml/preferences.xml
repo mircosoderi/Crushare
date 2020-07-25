@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="inline_images"
+        android:title="@string/inline_images_title"
+        android:summary="@string/inline_images_descr"
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference
+        android:key="inline_videos"
+        android:title="@string/inline_videos_title"
+        android:summary="@string/inline_videos_descr"
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference
+        android:key="execute_javascript"
+        android:title="@string/execute_javascript_title"
+        android:summary="@string/execute_javascript_descr"
+        android:defaultValue="false"/>
+
+    <CheckBoxPreference
+        android:key="safe_browsing"
+        android:title="@string/safe_browsing_title"
+        android:summary="@string/safe_browsing_descr"
+        android:defaultValue="true"/>
+
+    <!--
+    <CheckBoxPreference
+        android:key="geolocation"
+        android:title="@string/geolocation_title"
+        android:summary="@string/geolocation_descr"
+        android:defaultValue="true"/>
+    -->
+
+    <EditTextPreference
+        android:key="min_frame_duration"
+        android:title="@string/min_frame_duration_title"
+        android:summary="@string/min_frame_duration_summary"
+        android:defaultValue="10"
+        android:numeric="integer" />
+
+    <EditTextPreference
+        android:key="delivery_attempts_per_message"
+        android:title="@string/delivery_attempts_per_message_title"
+        android:summary="@string/delivery_attempts_per_message_summary"
+        android:defaultValue="2"
+        android:numeric="integer" />
+
+    <EditTextPreference
+        android:key="delivery_attempts_interval"
+        android:title="@string/delivery_attempts_interval_title"
+        android:summary="@string/delivery_attempts_interval_summary"
+        android:defaultValue="10"
+        android:numeric="integer" />
+
+    <EditTextPreference
+        android:key="signature"
+        android:title="@string/signature_title"
+        android:summary="@string/signature_summary"
+        android:defaultValue="@string/signature_default"
+        />
+
+    <Preference
+        android:key="instance_id"
+        android:title="@string/instance_id" />
+
+</PreferenceScreen>

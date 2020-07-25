@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/new_messages"
+        android:title="@string/new_messages"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_fiber_new_white_48"/>
+
+    <item android:id="@+id/listen"
+        android:title="@string/listen"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_tap_and_play_black_48dp"/>
+
+    <item android:id="@+id/stop_listening"
+        android:title="@string/stop_listening"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_tap_and_play_white_48dp"/>
+
+    <item android:id="@+id/send_message"
+        android:title="@string/send_message"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/send_file"
+        android:title="@string/send_file"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+
+    <item android:id="@+id/clear"
+        android:title="@string/clear"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_delete"/>
+
+    <item android:id="@+id/slideshow"
+        android:title="@string/slideshow"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/counter"
+        android:title="@string/counter"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/poll"
+        android:title="@string/poll"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/archive"
+        android:title="@string/archive"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_about"
+        android:title="@string/action_about"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crushare</string>
+
+    <!-- Send/Receive -->
+    <string name="error">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;title&gt;Error&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;div style=&quot;border: thick solid #3F51B5;&quot;&gt;&lt;div style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;An unexpected error occurred while delivering your message: %2$s. The message has NOT been delivered.&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="error_file_not_found">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;title&gt;Error&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;div style=&quot;border: thick solid #3F51B5;&quot;&gt;&lt;div style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;An error occurred while delivering your message: access failed to the file on your device. The message has NOT been delivered.&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="confirm_send_preview">You are going to deliver this message to all the bystanders:</string>
+    <string name="confirm_send_post">It can take %1$s.</string>
+    <string name="yes">SEND</string>
+    <string name="no">Cancel</string>
+    <string name="rejected_too_long">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Error&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;div style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;The message could not be sent. Size limit exceeded. Recommended: 3 kB. Maximum: 100 kB.&lt;/div&gt; &lt;/body&gt;&lt;/html&gt;</string>
+    <string name="action_send">Send</string>
+    <string name="too_old">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Error&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;Your Android seems not to allow sharing files that way. Try using the &lt;a class=&quot;crushare&quot; href=&quot;share://for.old.devices&quot; title=&quot;Share&quot;&gt;Share&lt;/a&gt; option of the Crushare menu instead.&lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="write_your_short_message_here">Write here your quick messages</string>
+    <string name="quick_message_send_error">Something wrong happened. Sigh.</string>
+    <string name="bigsized_delivery_error">Something wrong happened while delivering one of your big sized messages.</string>
+
+    <!-- Receive message: basics -->
+    <string name="loading">Loading: %1$s%%</string>
+
+    <!-- Receive message: events -->
+    <string name="webview_error">Error %1$d: %2$s</string>
+    <string name="webview_console">%1$s: %2$s</string>
+    <string name="js_alert">An alert has been sent to you. Tap to display.</string>
+    <string name="web_mex_alert">Alert</string>
+    <string name="js_confirm">A confirmation is needed from you. Tap to display.</string>
+    <string name="web_mex_confirmation">Confirm</string>
+    <string name="js_prompt">Some information is needed from you. Tap to display.</string>
+    <string name="web_mex_prompt">Prompt</string>
+
+    <!-- Receive message: errors -->
+    <string name="file_missed">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;title&gt;Error&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;p style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;Something wrong has happened. Crushare is very likely to have missed one or more messages.&lt;/b&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+
+    <!-- Preferences -->
+    <string name="inline_images_title">Inline images</string>
+    <string name="inline_images_descr">When someone near you shares a file, you are usually displayed a link that you have to tap for opening it. If you keep inline images enabled, a preview is also displayed of the image.</string>
+    <string name="inline_videos_title">Inline videos</string>
+    <string name="inline_videos_descr">When someone near you shares a file, you are usually displayed a link that you have to tap for opening it. If you keep inline videos enabled, the video is also played in a frame below the link.</string>
+    <string name="execute_javascript_title">Execute Javascript</string>
+    <string name="execute_javascript_descr">The app allows to deliver HTML messages that also include Javascript (executable code). It could be useful and/or amusing in some situations, but it is risky in general. So, executable code is blocked by default.</string>
+    <string name="safe_browsing_title">Google Safe Browsing</string>
+    <string name="safe_browsing_descr">(Android Oreo and above) Let your Android protect you against phishing, and threatening software, through the consolidated Google Safe Browsing Technology. Disabling this protection could be necessary in specific situations, but it is strongly recommended to keep it in place for a generic usage.</string>
+    <string name="instance_id">Universally Unique Identifier (UUID)</string>
+    <string name="min_frame_duration_title">Slideshow Frame Duration</string>
+    <string name="min_frame_duration_summary">In Slideshow mode, it indicates how long a message must stay on the screen, at a minimum. Messages that arrive in the meanwhile are queued, and they are displayed later.</string>
+    <string name="seconds">seconds</string>
+    <string name="delivery_attempts_per_message_title">Delivery Attempts Per Message</string>
+    <string name="delivery_attempts_per_message_summary">How many times each message is delivered. Multiple attempts improve the reliability, preserving the usability. Indeed, Crushare hides the duplicates. Too many attempts could affect your battery life.</string>
+    <string name="delivery_attempts_interval_title">Postman Sleep Duration</string>
+    <string name="delivery_attempts_interval_summary">The approximate duration of the interval of time between two consecutive deliveries of the same message, in seconds. </string>
+    <string name="signature_title">Signature</string>
+    <string name="signature_summary">Your signature appears automatically at the end of all of your messages. HTML is allowed in signatures. By default, signatures are written in cursive.</string>
+    <string name="signature_default">A Crushare\'s friend</string>
+
+    <!-- Menu -->
+    <string name="send_message">Write</string>
+    <string name="send_file">Share</string>
+    <string name="clear">Clear</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="counter">Counter</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="about_notice">&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;About&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;
+            &lt;p&gt;&lt;b&gt;About&lt;/b&gt;&lt;/p&gt;
+            &lt;p&gt;Crushare has been conceived, implemented, and it is maintained by Mirco Soderi (&lt;a class=&quot;crushare&quot; href=&quot;https://www.facebook.com/mirco.soderi&quot; title=&quot;Mirco Soderi Facebook profile&quot;&gt;Facebook&lt;/a&gt;, &lt;a class=&quot;crushare&quot; href=&quot;https://www.linkedin.com/in/mirco-soderi-3b470525/&quot; title=&quot;Mirco Soderi Linkedin profile&quot;&gt;Linkedin&lt;/a&gt;). For any question or contribution related to the final releases of the app, you are encouraged to leverage the Google Play Store users feedback functionalities. For any suggestion, feature proposal, and bug report that relates to an early (internal, alpha, beta) release of the app, you are encouraged to post to the Google+ Communities of the Crushare testers, such as the &lt;a class=&quot;crushare&quot; href=&quot;https://plus.google.com/communities/115046350116266756615&quot; title=&quot;Crushare Internal Testers community&quot;>Crushare Internal Testers community&lt;/a&gt;. For any other question, write to &lt;a class=&quot;crushare&quot; href=&quot;mailto:mirco.soderi@gmail.com&quot; title=&quot;mirco.soderi@gmail.com&quot;>mirco.soderi@gmail.com&lt;/a&gt;.&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Credits&lt;/b&gt;&lt;/p&gt;
+            &lt;p&gt;Crushare leverages the DetectHtml Java class written by David H. Bennett. The code is available on &lt;a class=&quot;crushare&quot; href=&quot;https://github.com/dbennett455/DetectHtml&quot; title=&quot;&quot;&gt;GitHub&lt;/a&gt; under a MIT licence. The licence note follows:
+                Copyright &#169; 2018 David H. Bennett - Permission is hereby granted, free of charge, to any person obtaining a copy
+                of this software and associated documentation files (the &quot;Software&quot;), to deal
+                in the Software without restriction, including without limitation the rights
+                to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                copies of the Software, and to permit persons to whom the Software is
+                furnished to do so, subject to the following conditions:
+                The above copyright notice and this permission notice shall be included in all
+                copies or substantial portions of the Software.
+        &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+    </string>
+    <string name="listen">Listen</string>
+    <string name="stop_listening">Stop</string>
+    <string name="new_messages">New Messages</string>
+    <string name="archive">Archive</string>
+    <string name="action_clear">Clear</string>
+    <string name="raw">Raw</string>
+
+
+    <!-- Connection management -->
+    <string name="connecting">Crushare is waking up&#8230;</string>
+    <string name="connecting_html">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Connecting&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;Crushare is waking up&#8230;&lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="disconnecting">Crushare is going to sleep&#8230;</string>
+    <string name="disconnecting_html">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Disconnecting&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;Crushare is going to sleep&#8230;&lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="disconnected">Crushare is now sleeping</string>
+    <string name="connected">Crushare is now awake</string>
+    <string name="canceled">Crushare happily remains in bed</string>
+    <string name="connection_error">Crushare wants to sleep a little longer. Try again later.</string>
+    <string name="disconnection_error">Crushare does not want to sleep. Try again later.</string>
+    <string name="you_are_connected">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Connected&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt; Crushare is awake and ready to catch messages until you &lt;a class=&quot;crushare&quot; href=&quot;disconnect://the.message.receiver&quot; title=&quot;disconnect&quot;>put her to sleep&lt;/a&gt;. &lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="you_are_disconnected">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Disconnected&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;Crushare is now sleeping, and will not catch any message until you &lt;a class=&quot;crushare&quot; href=&quot;connect://the.message.receiver&quot; title=&quot;connect&quot;>wake her up&lt;/a&gt;.&lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="automatic_reconnect">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Reconnecting&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;Crushare is a bit lazy today, she has fallen to sleep again.&lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+
+    <!-- Slideshow -->
+    <string name="slideshow_intro">&lt;strong&gt;Crushare&lt;/strong&gt; is waiting for your messages! Don\'t know who she is? Look for her in the Google Play Store, and get her app to get started. Don\'t worry about your mobile data: Crushare is a child. She weights as few as 3 MB, and she does not make any use of the Internet once it has been installed.</string>
+
+    <!-- Archive -->
+    <string name="archive_is_empty">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Archive is empty&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;The archive is empty&lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="connecting_html_offering_archive">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Connecting&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;Crushare is waking up. In the while, &lt;a class="crushare" title="10" href="iarchive://get.messages/"&gt;take back the thread&lt;/a&gt; loading the most recent archived messages.&lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="load_inline_archive">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Load inline archive&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;Load &lt;a style="border: thin solid #3F51B5" title="5" href="iarchive://get.messages/5/before/%2$s"&gt;5&lt;/a&gt; &lt;a style="border: thin solid #3F51B5" title="10" href="iarchive://get.messages/10/before/%2$s"&gt;10&lt;/a&gt; &lt;a style="border: thin solid #3F51B5" title="20" href="iarchive://get.messages/20/before/%2$s"&gt;20&lt;/a&gt; &lt;a style="border: thin solid #3F51B5" title="50" href="iarchive://get.messages/50/before/%2$s"&gt;50&lt;/a&gt; older messages.&lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="load_inline_archive_end">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;body_margin.css&quot; /&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;about_style.css&quot; /&gt;&lt;title&gt;Archive is empty&lt;/title&gt;&lt;meta name=&quot;author&quot; content=&quot;crushare&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class="datetime"&gt;%1$s&lt;/div&gt;&lt;span style=&quot;color:#3F51B5;&quot;&gt;&lt;b&gt;The end of the archive has been reached.&lt;/b&gt;&lt;/span&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string name="end_of_archive_reached">Bottom of archive reached!</string>
+    <string name="action_disabled_in_archive">Action not available in the archive</string>
+
+    <!-- Message Context -->
+    <string name="raw_mex">Raw Message</string>
+    <string name="send_again">Send</string>
+    <string name="hide">Hide</string>
+    <string name="destroy">Destroy</string>
+    <string name="done">Done</string>
+    <string name="confirm_destroy_title">Are you sure?</string>
+    <string name="confirm_destroy_content">The message will be deleted from your message database, and nor you neither someone else will ever be able to get it back without very advanced skills, and a lot of time, effort, and luck. Also, a request will be sent to all the reachable devices around you to delete the message. The message will be automatically deleted from those devices without any alert message to their owners. No trace will be kept of your request of destroying the message, nor in your device neither in the receiving devices. Tap YES to proceed, or NO to cancel.</string>
+    <string name="sending_quick_message">Submitted. It could take a while.</string>
+
+    <!-- Poll -->
+
+    <string name="poll">Polling</string>
+    <string name="poll_question">Question</string>
+    <string name="poll_option_1">Option 1</string>
+    <string name="poll_option_2">Option 2</string>
+    <string name="poll_option_3">Option 3</string>
+    <string name="poll_option_4">Option 4</string>
+    <string name="poll_option_5">Option 5</string>
+    <string name="poll_option_6">Option 6</string>
+    <string name="multiple_choice">Multiple choice</string>
+    <string name="deadline_seconds">Deadline (seconds):</string>
+    <string name="correct_answer">Correct answer:</string>
+    <string name="value_points">Value (points):</string>
+    <string name="public_results">Public results</string>
+    <string name="group_id">Group ID:</string>
+    <string name="yeah">YES</string>
+    <string name="nope">NO</string>
+    <string name="deadline_default">60</string>
+
+
+    <!-- Other -->
+
+    <string name="media_warning">&lt;span style="font-size:smaller;"&gt;Dear Friend,&lt;br&gt;&lt;br&gt;Files received from unreliable sources could embed malicious software, chocking contents, and other. I cannot make any check about this. Open them at your own risk. Previews also could be a threaten. Manage them from the &lt;a class="crushare" href="settings://display.now"&gt;&lt;b&gt;app settings&lt;/b&gt;&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Take care&lt;/b&gt;,&lt;br&gt;&lt;span style="font-style:italic;">Crushare&lt;/span&gt;&lt;/span&gt;</string>
+    <string name="signed">Signed</string>
+
+
+
+</resources>
