@@ -11,7 +11,7 @@
         android:theme="@style/CleanTheme">
         <meta-data
             android:name="com.google.android.nearby.messages.API_KEY"
-            android:value="-- Put your own API KEY here --" />
+            android:value="-- Put your own API KEY here --" /> 
 
         <activity android:name=".SendActivity">
             <intent-filter>
